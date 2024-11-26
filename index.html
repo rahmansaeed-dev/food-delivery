@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <!-- css file link  -->
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>food delivery</title>
+</head>
+
+<body>
+    <!-- navbar section  -->
+    <header>
+        <nav class="flex h-24 w-full bg-white items-center justify-between p-8 ">
+            <img class="h-20 w-48" src="./img/logo.png" alt="food logo">
+            <ul class="flex items-center justify-between gap-24 font-sans font-semibold">
+                <li><a class="hover:text-[#FA4A0C]" href="#">Home</a></li>
+                <li><a class="hover:text-[#FA4A0C]" href="#">Product</a></li>
+                <li><a class="hover:text-[#FA4A0C]" href="#">Faq</a></li>
+                <li><a class="hover:text-[#FA4A0C]" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section  -->
+        <div class='hero_main bg-[url("/img/hero-img.png")] relative w-full h-screen bg-no-repeat bg-center bg-cover '>
+            <div class="hero_content font-['Poppins'] text-white text-center py-10 ">
+                <h3 class="text-2xl font-bold p-4">Food app</h3>
+                <h1 class="text-6xl font-bold py-3 sm:text-xl text-left">Why stay hungry when </h1>
+                <h1 class="text-6xl font-bold py-2">you can order form Bella Onojie</h1>
+                <p class="p-3">Download the bella onoje’s food app now on</p><br>
+                <div class="button_container space-x-4">
+                    <button class="h-16 w-48 bg-[#FA4A0C] text-white font-bold px-9 py-3 rounded-full hover:bg-[#1e35154b] hover:border border-white">Playstore</button>
+                    <button class="h-16 w-48 px-8 p fot-2 font-bold rounded-full border border-white hover:bg-[#FA4A0C] hover:text-white hover:border-[#FA4A0C]">App Store</button>
+                </div>
+            </div>
+
+            <div class="hero_group_image absolute top-78 left-96 flex items-center justify-center">
+                <img class="h-screen border-b-2 border-[#E4E4E4] " src="./img/group-1.png" alt="" >
+                
+            </div>
+        </div>
+        <!-- Login setion  -->
+        
+        <div class="login_section flex flex-col mt-96 border-b-2 border-[#E4E4E4]">
+            <h1 class="text-center mt-32 font-bold text-3xl">How the app Works</h1>
+            <div class="login_container flex items-center justify-center">
+                <div class="img_container">
+                    <img src="./img/Rectangle.png" alt="">
+                </div>
+                <div class="login_content ">
+                    <h4 class="text-[#FA4A0C] font-bold">Create an Account</h4>
+                    <h2 class="font-bold text-3xl py-2 text-[#252B42]">Create/login to an existing </h2>
+                    <h2 class="font-bold text-3xl pb-2 text-[#252B42]">account to get started</h2>
+                    <p class="text-[#737373]">An account is created with your email</p>
+                    <p class="text-[#737373] ">and a desired password</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Explore Section  -->
+        <div class="login_section flex flex-col mt-0">
+            <div class="login_container flex items-center justify-center border-b-2 border-[#E4E4E4] ">
+                <div class="login_content w-2/5 ">
+                    <h4 class="text-[#FA4A0C] font-bold">Explore varieties</h4>
+                    <h2 class="font-bold text-3xl py-2 text-[#252B42]">Shop for your favorites</h2>
+                    <h2 class="font-bold text-3xl pb-2 text-[#252B42]">meal as e dey hot.</h2>
+                    <p class="text-[#737373]">Shop for your favorite meals or drinks</p>
+                    <p class="text-[#737373] ">and enjoy while doing it.</p>
+                </div>
+                <div class="img_container">
+                    <img src="./img/delicious.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Checkout section  -->
+        <div class="login_section flex flex-col mt-0">
+            <div class="login_container flex items-center justify-center border-b-2 border-[#E4E4E4] ">
+                <div class="img_container">
+                    <img src="./img/payment.png" alt="">
+                </div>
+                <div class="login_content w-2/5 ">
+                    <h4 class="text-[#FA4A0C] font-bold">Checkout</h4>
+                    <h2 class="font-bold text-3xl py-2 text-[#252B42]">When you done check out</h2>
+                    <h2 class="font-bold text-3xl pb-2 text-[#252B42]">and get it delivered.</h2>
+                    <p class="text-[#737373]">When you done check out and get it </p>
+                    <p class="text-[#737373] ">delivered with ease.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Download app section -->
+         <div class='app_download_section bg-[url("/img/app_download.png")] bg-no-repeat bg-center bg-cover h-96 space-y-5 pt-2'>
+            <div class="download_content text-center text-white">
+                <h1 class="text-center mt-32 font-bold text-4xl text-white">Download the app now.</h1>
+                <p class="p-5">Available on your favorite store. Start your premium experience now</p>
+            </div>
+            <div class="download_buttons space-x-4 flex items-center justify-center">
+                <button class="h-16 w-48 bg-[#FA4A0C] text-white font-bold px-9 py-3 rounded-xl hover:bg-[#1e351509] hover:border border-white">Playstore</button>
+                <button class="h-16 w-48 px-8 p fot-2 font-bold text-white rounded-xl border border-white hover:bg-[#FA4A0C] hover:text-white hover:border-[#FA4A0C]">App Store</button>
+            </div>
+         </div>
+    </main>
+
+    <footer>
+        <div class="footer_container h-24 flex items-center justify-between p-9">
+            <img class="h-20 w-48" src="./img/logo.png" alt="food logo">
+            <div class="footer_icons space-x-5 pt-4 text-[#FA4A0C]">
+                <i class="fa-brands fa-2x fa-square-facebook"></i>
+                <i class="fa-brands fa-2x fa-instagram"></i>
+                <i class="fa-brands fa-2x fa-twitter"></i>
+            </div>
+            <p class="text-[#5C5C5C] font-bold">Copywright 2020 Bella Onojie.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
